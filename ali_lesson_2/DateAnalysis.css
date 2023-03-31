@@ -1,0 +1,22 @@
+body {
+	font-family: 'Comic Sans MS';
+	color: blue;
+	font-size: 18px;
+	font-weight: bold;
+}
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 900px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+th {
+	width: 300px;
+	colspan=3
+}
+tr:nth-child(even) {
+	background-color: #D6EEEE;
+}

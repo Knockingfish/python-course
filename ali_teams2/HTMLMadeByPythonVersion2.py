@@ -1,0 +1,30 @@
+# William Fabian
+doctype="\n<!Doctype html>"
+htmls="\n<html>"
+heads="\n<head>"
+styles="\n<style>"
+tablestyle1="\ntable, th,td {"
+style1="\n\tborder:1px solid black;"
+style2="\n\tborder-collapse: collapse;"
+style3="\n}"
+stylee="\n</style>"
+heade="\n</head>"
+bodys="\n<body>"
+heading1="\n<h1>HTML sivu on tehty kokonaan Pythonilla!</h1>"
+
+tablestyle2="\n<table style='width:50%'>"
+trs="\n<tr>"
+th1="\n<th>Country</th>"
+th2="\n<th>Capital</th>"
+tre="\n</tr>"
+td1="\n<td>Finland</td>"
+td2="\n<td>France</td>"
+td3="\n<td>Helsinki</td>"
+td4="\n<td>Paris</td>"
+table="\n<table>"
+heading2="\n<h2>Tauluen viivan helpottavat taulun hohtamista</h2>"
+
+bodye="\n</body>"
+htmle="\n</html>"
+
+print(doctype, htmls, heads, styles, tablestyle1, style1, style2, style3, stylee, heade, bodys, heading1, tablestyle2, trs, th1, th2, tre, trs, tre, td1, td2, tre, trs, td3, td4, tre, table, heading2, bodye, htmle)
